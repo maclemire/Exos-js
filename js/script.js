@@ -24,7 +24,6 @@ el.onclick = function () {
     document.querySelector("#error2").innerHTML = "";
   }
 
-    document.getElementById("num1").value = "";
-    document.getElementById("num2").value = "";
+  document.getElementById("num1").value = "";
+  document.getElementById("num2").value = "";
 };
-
