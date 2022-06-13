@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exos js</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="text-center text-danger mb-5">Hello-Bootstrap</h1>
+    <div id="root" class="container">
+      <label for="num1">Nombre 1 :</label>
+      <input
+        type="text"
+        class="form-control mb-2"
+        id="num1"
+        placeholder="Renseigner un chiffre"
+      />
+      <span id="error1" class="text-danger"></span>
+
+      <label for="num2">Nombre 2 :</label>
+      <input
+        type="text"
+        class="form-control mb-2"
+        id="num2"
+        placeholder="Renseigner un chiffre"
+      />
+
+      <span id="error2" class="text-danger d-block"></span>
+      <button class="btn btn-danger mt-4 d-block" id="validate">Valider</button>
+      <div class="mt-4">
+        <span id="result" class="bg-success p-2 text-white"></span>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
